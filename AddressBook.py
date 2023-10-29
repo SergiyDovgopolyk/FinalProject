@@ -175,4 +175,3 @@ class AddressBook(UserList):
             if len(value):
                 result.append(f"{key}: {' '.join(value)}")
         return '_' * 50 + '\n' + '\n'.join(result) + '\n' + '_' * 50
-
