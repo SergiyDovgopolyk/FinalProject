@@ -1,4 +1,4 @@
-from AddressBook import *
+from AddressBook import AddressBook, Name, Phone, Birthday, Email, Status, Note, Record
 from abc import ABC, abstractmethod
 
 
@@ -42,9 +42,9 @@ class Bot:
             file_name = input("File name: ")
             return self.book.load(file_name)
         elif action == 'congratulate':
-            print(self.book.congratulate())
+            display_congratulations(self.book.congratulate())
         elif action == 'view':
-            print(self.book)
+            self.view.display(self.book)
         elif action == 'exit':
             pass
         else:
@@ -69,3 +69,6 @@ class ConsoleView(View):
             print(f"Email: {record['email']}")
             print(f"Status: {record['status']}")
             print(f"Note: {record['note']}")
+
+    def display_congratulations(self, data):
+        print(data)
