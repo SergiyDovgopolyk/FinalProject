@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mybot"
+version = "0.1.0"
+description = "HW-2, Python WEB"
+authors = ["dovgo <dovgopolyks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
