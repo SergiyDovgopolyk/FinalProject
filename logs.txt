@@ -61,3 +61,6 @@
 [17:13:41] Addressbook has been saved!
 [17:26:26] Addressbook has been loaded!
 [17:27:21] Addressbook has been saved!
+[10:23:01] Addressbook has been loaded!
+[10:23:52] Contact gffg has been added.
+[10:23:52] Addressbook has been saved!
